@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "如果使用或引用本仓库，请按以下信息引用。"
+title: "If-Tree Skill"
+authors:
+  - family-names: "starlight-yxat"
+version: "v0.1.0"
+date-released: "2026-03-30"
+url: "https://github.com/starlight-yxat/if-tree-skill"

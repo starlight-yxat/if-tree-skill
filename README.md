@@ -1,64 +1,64 @@
 # If-Tree Skill
 
-A public, versioned repository for the If-Tree Skill methodology.
+If-Tree Skill 方法论的公开发布与版本记录仓库。
 
-## What this repository is for
+## 仓库用途
 
-This repository is used to publish, version, and preserve the If-Tree Skill methodology as a public record.
+本仓库用于公开发布、持续版本化保存 If-Tree Skill 方法论，并作为可核验的公开记录。
 
-Its purpose is:
+建立本仓库的目的包括：
 
-- to provide a stable public timestamp for the methodology
-- to keep version history clear and inspectable
-- to make future citation and authorship attribution easier
-- to reduce ambiguity about prior publication
+- 为该方法论提供稳定、公开、可追溯的时间戳
+- 保留清晰可检查的版本演化历史
+- 便于后续引用、署名与归属说明
+- 减少围绕“先发表”“先公开”的争议
 
-## Core idea
+## 核心思想
 
-The If-Tree Skill treats a condition tree as the natural-language form of a program.
+If-Tree Skill 将条件树视为程序的自然语言形态。
 
-Its core claim is:
+其核心主张包括：
 
-- document and program are strictly equivalent
-- condition branches plus loops are sufficient to express complete program logic
-- the system must not guess missing rules
-- when user-provided facts are insufficient for implementation, the document must expose explicit ERROR nodes instead of silently filling gaps
+- 文档即程序，程序即文档，二者严格等价
+- 条件分支与循环足以表达完整程序逻辑
+- 对于用户未给出的规则，系统不得擅自猜测或补写
+- 当实现所需事实不足时，文档必须显式暴露 ERROR，而不是静默补全
 
-## Current document
+## 当前文档
 
-The current methodology document is stored in:
+当前方法论文档存放于：
 
 - `if-tree-skill-v5.md`
 
-## Scope
+## 当前范围
 
-This repository currently focuses on:
+本仓库当前主要关注以下内容：
 
-- requirement organization
-- condition-tree document structure
-- axioms and responsibility boundaries
-- data validation rules
-- data-flow tracking
-- ERROR exposure rules
-- reversibility self-check
+- 需求整理
+- 条件树文档结构
+- 前提与职责边界
+- 数据校验规则
+- 数据流追踪规则
+- ERROR 暴露规则
+- 可逆性自检
 
-## Versioning policy
+## 版本策略
 
-New revisions of the methodology should be committed as explicit version updates.
+方法论文档的后续修订，应以明确版本更新的形式提交。
 
-Recommended version pattern:
+建议版本模式：
 
-- v0.x for early public drafts
-- v1.0.0 for the first stable public release
+- `v0.x`：早期公开草稿
+- `v1.0.0`：第一个稳定公开版本
 
-## Citation and attribution
+## 引用与署名
 
-If this repository, its methodology, or its document structure is referenced in research, software, articles, videos, or derivative documentation, attribution should point to this repository and the relevant released version.
+如果研究、软件、文章、视频或衍生文档引用了本仓库、其中的方法论或文档结构，应当明确指向本仓库及对应的发布版本。
 
-## Author
+## 作者
 
-Author: starlight-yxat
+作者：starlight-yxat
 
-## Status
+## 当前状态
 
-Current status: public draft
+当前状态：公开草稿

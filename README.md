@@ -401,14 +401,6 @@ A: No. if-tree is a protocol layer. It doesn't override the AI's base capabiliti
 
 ---
 
-## Author
-
-**Starlight** ([@starlight-yxat](https://github.com/starlight-yxat))
-
-Independent researcher. Designer of if-tree skill. Originator of Lamp Machine theory.
-
----
-
 ## License
 
 MIT
